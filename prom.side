@@ -1,0 +1,503 @@
+{
+  "id": "23ecbfb7-ff2d-4b0d-8621-85817f63b68d",
+  "version": "2.0",
+  "name": "prom",
+  "url": "https://prom.ua/ua/",
+  "tests": [{
+    "id": "e5bd905b-5747-47e2-9c7d-e5a6f2d98a4f",
+    "name": "search",
+    "commands": [{
+      "id": "d8e36690-3880-4174-9a9f-a0a10378b927",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69620067-a1ef-4f8d-8fc5-aa9cd1e6d1dd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e542cdc-04a3-439c-9907-3b3a003427f8",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eec549a-e1a0-4618-b466-1f8bebf6407d",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "кросівки"
+    }, {
+      "id": "e2f433b9-1ea8-472f-9598-abd1c0b82f7d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div[4]/button",
+      "targets": [
+        ["css=.yNx5B", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Знайти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "406afd35-55c8-494a-b3c9-a405ec323150",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(2) > .DuQPf > .\\_3Trjq",
+      "targets": [
+        ["css=.l-GwW:nth-child(2) > .DuQPf > .\\_3Trjq", "css:finder"],
+        ["xpath=//div[@id='spa-root']/div[2]/div[4]/div[2]/div/ul/li/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//li/div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Дешевше')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "452b838a-97da-43ff-bfa8-6ad346331515",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.Yglk6",
+      "targets": [
+        ["css=.Yglk6", "css:finder"],
+        ["xpath=//div[@id='spa-root']/div[2]/div[4]/div[3]/div/div[2]/div/div[3]/div/div/div/div/div/div[5]/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29a3263e-f8d9-4504-acea-b49ceef5bc19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(6) .M3v0L > .\\_0cNvO",
+      "targets": [
+        ["css=.l-GwW:nth-child(6) .M3v0L > .\\_0cNvO", "css:finder"],
+        ["xpath=//div[@id='spa-root']/div[2]/div[4]/div[3]/div/div[2]/div/div/div/div[6]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/p1327982557-krossovki-zamshevye-criss.html?token=v2%3ADijm_-eE2wP6Dbe2eO9GEdUXHuvKrc266QP9VQyr5z8Pmse_CkTp9eeKcgRFHbiIdVuvnbHofFSoVO5ES5-UyweFJ5agWdZCg6QtujKT8PTxPGDtHHwkAPrum3KxfZ4B&campaign_id=1328432&product_id=1327982557&source=prom%3Asearch%3Aserp&locale=uk&category_ids=3220713&from_spa=true')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "603cbdd8-6a01-4861-aded-25e547717ed7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.l-GwW > .uTnwV",
+      "targets": [
+        ["css=.l-GwW > .uTnwV", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/div[2]/div/div[3]/div[2]/div/div/div[5]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7a42cef-33d8-41ec-adef-d94e858bff74",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Кросівки та кеди')]",
+      "targets": [
+        ["linkText=Кросівки та кеди", "linkText"],
+        ["css=.bfetG:nth-child(7) > .\\_0cNvO", "css:finder"],
+        ["xpath=//a[contains(text(),'Кросівки та кеди')]", "xpath:link"],
+        ["xpath=//div[@id='spa-root']/div[2]/div/div[2]/div/nav/div/ol/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/Krossovki-obuv-dlya-bega')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Кросівки та кеди')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "409fd6b3-5882-408c-bb0e-9e3771a3d7ca",
+    "name": "add to cart",
+    "commands": [{
+      "id": "5dd42a09-e686-4cec-82d7-ff40da21c366",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e060d0f-3c52-4355-8e8c-e325f0c12b86",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='search_term']",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d369a57d-048b-405d-a608-16af85606a27",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='search_term']",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "вітаміни B12"
+    }, {
+      "id": "4ebde91b-08c6-44d8-9718-2ff1d5fbb878",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gPzcS",
+      "targets": [
+        ["css=.gPzcS", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Знайти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c07fd151-950c-437b-bcdf-af8cd445fa60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(1) > .JicYY > .M3v0L > .\\_0cNvO",
+      "targets": [
+        ["css=.l-GwW:nth-child(1) > .JicYY > .M3v0L > .\\_0cNvO", "css:finder"],
+        ["xpath=//div[@id='spa-root']/div[2]/div[4]/div[3]/div/div[2]/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/p2248231940-gidroksikobalamin-vitamin-b12.html?token=v2%3AOtMhcxBj0Uh4i5cPBPumplMJb8UWyCdgSvmx2G0F315vw3Y0jo_CXzmlVBppSSSil0Lumcx6wvwtArhQ8oqZtuSs8VsVwhGeXIONWudKEVvgY84PrIWcNr4jrBwRnzh0&campaign_id=3357771&product_id=2248231940&source=prom%3Asearch%3Aserp&locale=uk&category_ids=23005&from_spa=true')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ac738ed-2129-4c5d-b0f4-fbc32aa8dacf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW > .uTnwV",
+      "targets": [
+        ["css=.l-GwW > .uTnwV", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/div[2]/div/div[3]/div[2]/div/div/div[5]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db40a665-58c8-4c46-841e-0534d73feec4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(3) > .\\_1YoJG",
+      "targets": [
+        ["css=.l-GwW:nth-child(3) > .\\_1YoJG", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[3]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14999352-22d8-4dd3-b195-9913bd9a5b37",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "css=.oh\\+-g",
+      "targets": [
+        ["css=.oh\\+-g", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[2]/div/div/div[2]/div/div/div/div/ul/li/div[2]/ul/li/div/ul/li/div/div[2]/div/ul/li[3]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0fe33d7-298e-465d-acd4-0e3f6ac65e8d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.\\_0JiZX",
+      "targets": [
+        ["css=.\\_0JiZX", "css:finder"],
+        ["xpath=(//button[@type='button'])[29]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[2]/div/div/div[2]/div/div/div/div/ul/li/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//li/div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cceea23f-ba32-4e82-a75b-77a36f6087f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-ROQ5 > .\\_2uocW",
+      "targets": [
+        ["css=.-ROQ5 > .\\_2uocW", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c1623d0-86d8-44b6-9c8a-1bad63384cac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.LoRyP",
+      "targets": [
+        ["css=.LoRyP", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "50cc3276-37f2-4b9e-b5b2-14e738934bbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v0pdS",
+      "targets": [
+        ["css=.v0pdS", "css:finder"],
+        ["xpath=//img[@alt='prom']", "xpath:img"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//header/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "71495ca2-ddbb-4ed6-b107-e563e7b58b9c",
+    "name": "buy",
+    "commands": [{
+      "id": "11e18361-0ae6-4903-ae27-f9be0507a0cf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b30fa52-be30-4971-b4ff-b67c52911d99",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='search_term']",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4154a6e-72b7-450e-a8b6-c3ca0ece9000",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='search_term']",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "мишка"
+    }, {
+      "id": "49c789ee-9bc8-4bba-8458-304a61ee2aa3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gPzcS",
+      "targets": [
+        ["css=.gPzcS", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/header/div/div/div[2]/div/div/div/div/div/form/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Знайти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8124ee8a-5999-4125-b95b-55bda5e7de0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(3) > .DuQPf > .\\_3Trjq",
+      "targets": [
+        ["css=.l-GwW:nth-child(3) > .DuQPf > .\\_3Trjq", "css:finder"],
+        ["xpath=//div[@id='spa-root']/div[2]/div[4]/div[2]/div/ul/li/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//li/div/div/div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Дорожче')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed42a81-0d4e-4c60-8334-d5027f38e9b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(19) .M3v0L > .\\_0cNvO",
+      "targets": [
+        ["css=.l-GwW:nth-child(19) .M3v0L > .\\_0cNvO", "css:finder"],
+        ["xpath=//div[@id='spa-root']/div[2]/div[4]/div[3]/div/div[2]/div/div/div/div[19]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/p2037470566-mishka-3dconnexion-spacemouse.html?token=v2%3ADCjbGNrg-iMnIsT-STlGfLZgEjW3vDA7l97k9NQZ9a47hVXK8VKFAg64wZ5wbyT1jshLWn5GwdSErl3VI7liYdPHlVC7Z6CHVulLnqYiT1bYI08vw4uFmV5fQCwLGLub&campaign_id=1948360&product_id=2037470566&source=prom%3Asearch%3Aserp&locale=uk&category_ids=70805&from_spa=true')]", "xpath:href"],
+        ["xpath=//div[19]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53460325-5089-4c1c-be45-fbf66dac5ac6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW > .uTnwV",
+      "targets": [
+        ["css=.l-GwW > .uTnwV", "css:finder"],
+        ["xpath=(//button[@type='button'])[98]", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/div[2]/div/div[3]/div[2]/div/div/div[5]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "044dffe1-1b08-4c2b-9f0d-c50ea70b755e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qa-state-in-shoping-cart",
+      "targets": [
+        ["css=.qa-state-in-shoping-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[98]", "xpath:attributes"],
+        ["xpath=//div[@id='spa-root']/div[2]/div/div[3]/div[2]/div/div/div[5]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'До кошика')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8864ff3-c4dd-4029-a140-9f39273ed880",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_0JiZX",
+      "targets": [
+        ["css=.\\_0JiZX", "css:finder"],
+        ["xpath=(//button[@type='button'])[28]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[3]/div/div/div[2]/div/div/div/div/ul/li/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//li/div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0bc5ccf-b773-4d3c-8061-2cf7255eb0e2",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "xpath=//input[@id='phoneInputLabel']",
+      "targets": [
+        ["id=phoneInputLabel", "id"],
+        ["css=#phoneInputLabel", "css:finder"],
+        ["xpath=//input[@id='phoneInputLabel']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/div/div/div/div/div/div/div/div/div/ul/li/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bde2e019-6007-4bd0-b024-8c13bfdade3c",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "xpath=//input[@id='last_name_block']",
+      "targets": [
+        ["id=last_name_block", "id"],
+        ["css=#last_name_block", "css:finder"],
+        ["xpath=//input[@id='last_name_block']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/div/div/div/div/div/div/div/div/div/ul/li[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7efe0574-d4b0-4345-80a3-d08c48f63a40",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "xpath=//input[@id='first_name_block']",
+      "targets": [
+        ["id=first_name_block", "id"],
+        ["css=#first_name_block", "css:finder"],
+        ["xpath=//input[@id='first_name_block']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/div/div/div/div/div/div/div/div/div/ul/li[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b640542-b242-471a-96b4-1df1f2272372",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.\\_-90L7:nth-child(2)",
+      "targets": [
+        ["css=.\\_-90L7:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/div/div/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "440dc262-d523-4492-a848-c9b5f70e57df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.X\\+w-l",
+      "targets": [
+        ["css=.X\\+w-l", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/ul/li/div/div/div/div/div/div/div[2]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6ed437a-e64a-470c-83c7-345f1cb279b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gq4B2 > .P3IXJ",
+      "targets": [
+        ["css=.gq4B2 > .P3IXJ", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[2]/div/div/div[2]/footer/div/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Редагувати замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "811da874-3c91-463a-822e-577590e7f8f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-ROQ5 path",
+      "targets": [
+        ["css=.-ROQ5 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "187e8fde-0d23-447e-ba36-e36881e9003a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.LoRyP",
+      "targets": [
+        ["css=.LoRyP", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5a3eed5d-4979-493e-ae4a-eef3e2325b57",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e5bd905b-5747-47e2-9c7d-e5a6f2d98a4f"]
+  }, {
+    "id": "fa15c894-49a7-41a0-91b7-404378d38af7",
+    "name": "search product",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "884156b8-7418-48b0-b99f-e61f604d7ed0",
+    "name": "add to cart",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://prom.ua/ua/"],
+  "plugins": []
+}
